@@ -1,9 +1,10 @@
-import pygame # import the pygame library
-from player import *
+import sys
+import pygame
 from constants import *
-from asteroid import *
-from asteroidfield import *
-from shot import *
+from player import Player
+from asteroid import Asteroid
+from asteroidfield import AsteroidField
+from shot import Shot
 
 def main():
     pygame.init()
