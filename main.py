@@ -27,7 +27,7 @@ def main():
     dt = 0
 
 # Our main game loop
-    while True:
+    while True:   
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
@@ -38,7 +38,12 @@ def main():
         for asteroid in asteroids:
             if asteroid.colliding(player) == True:
                 print("Game over!")
-                sys.Exit()
+                sys.exit()
+
+            for shot in shots:
+                if shot.colliding(asteroid) == True:
+                    asteroid.kill()
+                    shot.kill()
         
         screen.fill(color=000000)
 
