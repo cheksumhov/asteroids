@@ -1,5 +1,5 @@
 # Asteroids
-This is a recreation of the classic game Asteroids. The goal is to survive, while blowing up as many asteroids as possible. I will be expanding this with a score tracker, but for now it's just the basic game.
+This is a recreation of the classic game Asteroids. The goal is to survive, while blowing up as many asteroids as possible.
 
 ## Controls
 <ul>
